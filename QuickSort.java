@@ -12,7 +12,7 @@ public class QuickSort {
         int i = low-1;
         for(int j=low; j<high; j++){
             if (arr[j] < pivit){
-                i++;arr.length > 0
+                i++;
                 swap(arr, i, j);
             }
         }
